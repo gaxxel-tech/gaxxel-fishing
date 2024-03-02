@@ -5,8 +5,8 @@ room_goto(MainMenu);
 global.Speed = 1;
 global.latas_obtenidas = 0;
 global.dias = 1;
-
-
+global.cuota = 10;
+global.noche = false;
 
 alarm[0] = 120;
 

@@ -1,8 +1,9 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-
-if(sedal_roto){
+//si se rompe el sedal o se obtiene la cuota salimos de escena.
+if(sedal_roto) || (global.latas_obtenidas >= global.cuota){
+	global.noche = true;
 	var _warp = instance_create_depth(x,y, depth -1000, obj_room_change_controller);
 	_warp.new_room = Dock;
 	return	
