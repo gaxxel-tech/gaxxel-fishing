@@ -12,6 +12,7 @@ if (anzuelo_to_follow != noone){
 		if(colided == 0){
 			anzuelo_to_follow.peso_actual += peso;
 			colided += 1;
+			
 		}
 }else{
 	y -= global.Speed;	

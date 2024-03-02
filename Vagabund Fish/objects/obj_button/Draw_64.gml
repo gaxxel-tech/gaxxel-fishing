@@ -1,10 +1,8 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-xspeed = 2;
+
+draw_self();
+
+draw_text(x + 10, y + 32, "Start Game");
 
 
-
-peso_actual = 0;
-peso_max = 20;
-
-sedal_roto = false

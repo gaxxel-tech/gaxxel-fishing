@@ -1,10 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-xspeed = 2;
+
+player = instance_place(x,y, obj_player);
 
 
 
-peso_actual = 0;
-peso_max = 20;
-
-sedal_roto = false

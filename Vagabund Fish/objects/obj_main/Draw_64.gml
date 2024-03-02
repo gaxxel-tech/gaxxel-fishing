@@ -1,10 +1,8 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-xspeed = 2;
+
+if(room == Dock){
+	draw_text(20 , 20, "Dia " + string(global.dias));	
+}
 
 
-
-peso_actual = 0;
-peso_max = 20;
-
-sedal_roto = false
